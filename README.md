@@ -1,5 +1,5 @@
 # SelectionSort
-A visual version of the SelectionSort sorting algorithm 
+A visual version of the SelectionSort sorting algorithm written in P5JS.
 
 ![SelectionSort](https://raw.githubusercontent.com/johnnyawesome/SelectionSort/master/SelectionSort/DemoImages/SelectionSort.gif)
 
