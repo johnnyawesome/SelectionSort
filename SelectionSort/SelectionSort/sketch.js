@@ -44,7 +44,7 @@ function draw() {
   translate(10, height * 0.9);
 
   //Sort bars
-  sortBars(iteration);
+  selectionSort(iteration);
   iteration++;
 
   //Draw bars
@@ -54,6 +54,7 @@ function draw() {
   }
 }
 
+//Generates all bars
 function generateBars() {
   while (bars.length < numOfBars) {
     let rand = Math.floor(Math.random() * numOfBars) + 1;
@@ -61,7 +62,8 @@ function generateBars() {
   }
 }
 
-function sortBars(iteration) {
+//The SelectioNSort sorting algorithm
+function selectionSort(iteration) {
   if (iteration < bars.length) {
     let min = bars.length;
     let minIndex;
@@ -77,6 +79,7 @@ function sortBars(iteration) {
   }
 }
 
+//Re-seed the animation with random bars
 function resetArray() {
   for (let i = bars.length; i >= 0; i--) {
     bars.pop();
