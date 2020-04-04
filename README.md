@@ -3,7 +3,7 @@ A visual version of the SelectionSort sorting algorithm
 
 ![SelectionSort](https://raw.githubusercontent.com/johnnyawesome/SelectionSort/master/SelectionSort/DemoImages/SelectionSort.gif)
 
-SelectionSort is a sorting algorithm. It lets you sort all kinds of things, like the randmomly generated bars in the image above.
+SelectionSort is a  [sorting algorithm](https://en.wikipedia.org/wiki/Sorting_algorithm). It lets you sort all kinds of things, like the randmomly generated bars in the image above.
 
 ## More information
 
