@@ -62,7 +62,7 @@ function generateBars() {
   }
 }
 
-//The SelectioNSort sorting algorithm
+//The SelectionSort sorting algorithm
 function selectionSort(iteration) {
   if (iteration < bars.length) {
     let min = bars.length;
